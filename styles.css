@@ -1,0 +1,255 @@
+* {
+    font-family: 'Dosis', sans-serif;
+    font-weight: 400;
+}
+
+
+h1 {
+    font-size: 40px;
+    font-weight: 700;
+}
+
+h2 {
+    font-size: 30px;
+    font-weight: 700;
+}
+
+p {
+    font-size: 20px;
+}
+
+li {
+    font-size: 20px;
+    font-family: 'EB Garamond';
+}
+
+.container {
+    border: 8px ridge gainsboro;
+    padding: 10px;
+    margin: 15px auto;
+    position: relative; 
+    top: 200px;
+}
+
+/* Header & Nav Bar */
+
+header {
+    height: 70px;
+    z-index: 1;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #8E89FA;
+    margin: auto;
+}
+
+header h1 {
+    font-size: 40px;
+    font-weight: 700;
+    min-width: 1000px;
+    background-color: #8E89FA;
+    width: 100%;
+    margin: auto;
+    padding: 20px 20px 10px 20px;
+    display: inline-block;
+}
+
+header ul {
+    margin: auto;
+    padding: 10px 20px 20px 20px;
+    display: inline-block;  
+    background-color: #8E89FA;
+    width: 100%;    
+    border-bottom: 2px solid #534EAD;
+    left: 0;
+}
+
+header li {
+    margin: auto;
+    padding: 0px 20px;
+    display: inline-block;
+    font-size: 25px;
+    left: 0;
+}
+
+header a {
+    color: #ffffff;
+    text-decoration: underline;
+    display: inline-block;
+    left: 0;
+    right: 0;
+    cursor: pointer;
+}
+
+header a:hover {
+    text-decoration: none;
+}
+
+header a:visited {
+    color: #534EAD;
+}
+
+header a:active {
+    color: #65AD57;
+}
+
+
+/*Color Section*/
+
+.color-panel {
+    display: inline-block;
+    width: 33%;
+    text-align: center;
+    vertical-align: center;
+    margin: 10px auto;
+    min-height: 100px;
+    border: 1px solid gray;
+}
+
+.dark-cool-purple {
+    background-color: #534EAD;
+    color: #fff;
+}
+
+.earthy-peach {
+    background-color: #FAC3A2;
+    color: #fff;
+}
+
+.deep-lavender {
+    background-color: #8E89FA;
+    color: #fff;
+}
+
+.muted-lime {
+    background-color: #88FA70;
+    color: #fff;
+}
+
+.light-forest {
+    background-color: #65AD57;
+    color: #fff;
+}
+
+/*Fonts Section*/
+
+.font-label {
+    font-size: 20px;
+    text-decoration: underline;
+    margin: 10px auto;
+}
+
+.font-panel {
+    width: 33%;
+    display: inline-block;
+}
+
+.dosis {
+    font-family: 'Dosis';
+}
+
+.eb-garamond {
+    font-family: 'EB Garamond';
+}
+
+.ibm-plex-serif {
+    font-family: 'IBM Plex Serif';
+   }
+
+.regular {
+    font-weight: 400;
+}
+
+.light {
+    font-weight: 200;
+}
+
+.bold {
+    font-weight: 700;
+}
+
+.italic {
+    font-style: italic;
+}
+
+/*Text Section*/
+
+.text-panel {
+    width: 33%;
+    display: inline-block;
+}
+
+/*Buttons Section*/
+
+.button {
+    display: inline-block;
+}
+
+.button a {
+    font-size: 25px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    margin: 5px 30px;
+    width: 150px;
+    height: 75px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+}
+
+.button a:active {
+    font-size: 30px;
+    transition: font-size .1s ease-in-out;
+}
+
+#button-1 {
+    background-color:#534EAD;
+    color: #ffffff;
+}
+
+#button-2 {
+    background-color: #FAC3A2;
+    color: #534EAD;
+}
+
+#button-3 {
+    background-color: #8E89FA;
+    color: #ffffff;
+}
+
+#button-4 {
+    background-color: #88FA70;
+    color: #534EAD;
+}
+
+#button-5 {
+    background-color: #65AD57;
+    color: #ffffff;
+}
+
+#button-1:hover {
+    background-color: hsla(243, 38%, 49%, .4);
+    transition: background-color .25s ease-in;
+}
+
+#button-2:hover {
+    background-color: hsla(22, 90%, 81%, .4);
+    transition: background-color .25s ease-in;
+}
+
+#button-3:hover {
+    background-color: hsla(243, 92%, 76%, .4);
+    transition: background-color .25s ease-in;
+}
+#button-4:hover {
+    background-color: hsla(110, 93%, 71%, .4);
+    transition: background-color .25s ease-in;
+}
+#button-5:hover {
+    background-color: hsla(110, 34%, 51%, .4);
+    transition: background-color .25s ease-in;
+}
